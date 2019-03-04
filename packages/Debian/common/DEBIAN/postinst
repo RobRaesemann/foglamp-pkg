@@ -123,8 +123,8 @@ call_package_update_script
 # echo "Linking update task"
 # link_update_task
 
-echo "Copying sodoers file"
-copy_foglamp_sudoer_file
+# echo "Copying sodoers file"
+# copy_foglamp_sudoer_file
 
 echo "Enabling FogLAMP service"
 enable_foglamp_service
