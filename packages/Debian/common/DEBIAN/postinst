@@ -76,10 +76,10 @@ copy_new_data () {
     if [ ! -d /usr/local/foglamp/data ]; then
         echo "Data directory does not exist. Using new data directory"
         mv /usr/local/foglamp/data.new /usr/local/foglamp/data
-    else
-        echo "Data directory already exists. Updating data/extras/fogbench/fogbench_sensor_coap.template.json only."
-        cp /usr/local/foglamp/data.new/extras/fogbench/fogbench_sensor_coap.template.json /usr/local/foglamp/data/extras/fogbench/fogbench_sensor_coap.template.json
-        rm -rf /usr/local/foglamp/data.new
+    # else
+    #     echo "Data directory already exists. Updating data/extras/fogbench/fogbench_sensor_coap.template.json only."
+    #     cp /usr/local/foglamp/data.new/extras/fogbench/fogbench_sensor_coap.template.json /usr/local/foglamp/data/extras/fogbench/fogbench_sensor_coap.template.json
+    #     rm -rf /usr/local/foglamp/data.new
     fi
 }
 
