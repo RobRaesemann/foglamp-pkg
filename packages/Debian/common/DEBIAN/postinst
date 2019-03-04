@@ -120,8 +120,8 @@ set_files_ownership
 # Call FogLAMP package update script
 call_package_update_script
 
-echo "Linking update task"
-link_update_task
+# echo "Linking update task"
+# link_update_task
 
 echo "Copying sodoers file"
 copy_foglamp_sudoer_file
